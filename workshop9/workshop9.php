@@ -14,7 +14,7 @@
         ชื่อสมาชิก: <?= $row["name"] ?> <br>
         ที่อยู่: <?= $row["address"] ?> <br>
         อีเมลล์: <?= $row["email"] ?> <br>
-        <a href='editform.php?username=<?=$row["username"]?>'>ลบ</a>
+        <a href='editform.php?username=<?=$row["username"]?>'>แก้ไข</a>
         <hr>
         <?php
       }
